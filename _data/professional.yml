@@ -8,14 +8,14 @@
 
 - org: Ajentech
   role: Software Engineer
-  when: Oct 2009 - May 2015
+  when: Oct 2009 - May 2011
   bullets:
     - Upgrade Android PDK to Gingerbread for TI OMAP SoC
     - Enhanced Linux device driver robust to accidental SD removal for LG Android phones
 
 - org: Cubicwave
   role: Software Engineer
-  when: Mar 2007 - Nov 2009
+  when: Mar 2007 - Oct 2009
   bullets:
     - Designed and implemented DB interface for LGT TPAK platform
 
