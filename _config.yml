@@ -11,7 +11,7 @@ title: Resume for Homin Lee
 description: Digital resume for Homin Lee.
 
 # URL of this resume
-url: 'https://suapapa.github.io/resume'
+url: 'https://suapapa.github.io/resume/'
 
 # URL of your personal website (make same as URL if you don't have one)
 personal: 'http://suapapa.net'
@@ -27,12 +27,12 @@ copyright: All rights reserved.
 navigation: navigation
 
 # Google analytics ID: UA-XXXXX-X
-analytics: UA-9939917-25
+analytics: UA-65909718-1
 
 # Jekyll assets gem
 assets:
   dirname: assets
-  baseurl: /assets/
+  baseurl: assets/
   css_compressor: yui
   js_compressor: yui
   cachebust: hard
