@@ -1,33 +1,21 @@
 - Languages:
     primary:
+      - C/C++
+      - Go
       - Python
-      - PHP
     secondary:
       - Bash
-      - Ruby
-      - Matlab
-      - Javascript
-- Frameworks:
-    primary:
-      - Flask
-      - Puppet
-    secondary:
-      - Chef
-      - Rails
+      - Java
 - Systems:
     primary:
-      - Debian
-      - Docker
-      - Jenkins
+      - Debian/Ubuntu Linux 
     secondary:
-      - Nginx
-      - Logstash
-      - AWS
+      - Android
+      - Arduino
 - Technical:
     primary:
-      - Statistics
-      - Operations Research
+      - Linux server admin
+      - Linux device driver
+      - Android HAL
     secondary:
-      - Signal Analysis
-      - AWS
-      - Artificial Intelligence
+      - Translate English to Korean
