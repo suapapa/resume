@@ -1,24 +1,24 @@
 # Use this file to control the main attributes of the website
 
 # You
-name: Philip I. Thomas
+name: Homin Lee
 
 # Title for your site as it will appear in google
 # e.g. Resume, Curriculum Vitae, Work History
-title: Resume for Philip I. Thomas
+title: Resume for Homin Lee
 
 # SEO description
-description: Digital resume for Philip I. Thomas, explorer and engineer in San Francisco.
+description: Digital resume for Homin Lee.
 
 # URL of this resume
-url: 'https://jekyll-resume.philipithomas.com'
+url: 'https://suapapa.github.io/resume'
 
 # URL of your personal website (make same as URL if you don't have one)
-personal: 'https://www.philipithomas.com'
+personal: 'http://suapapa.net'
 
 # these should be pretty self-explanatory :-P
-email: mail@philipithomas.com
-twitter: philipithomas
+email: homin.lee@suapapa.net
+twitter: suapapa
 
 # Show this in the footer
 copyright: All rights reserved.
