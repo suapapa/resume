@@ -213,7 +213,7 @@ main {
 }
 
 /** Larger Screens - desktops and tablets **/
-@media all and (min-device-width: 1200px) {
+@media all and (min-width: 1200px) {
   .app-bar {
     position: relative;
   }
@@ -300,13 +300,22 @@ main {
   }
 }
 
-@media all and (min-device-width: 1200px) and (max-width: 800px) {
+@media all and (max-width: 1200px) {
   .app-bar .logo {
     float: none;
     width: 100%;
     line-height: normal;
     text-align: center;
-    padding-top: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  button.menu {
+    display: none;
+  }
+
+  nav {
+    display: none;
   }
 
   .app-bar-container {
@@ -315,6 +324,10 @@ main {
 
   .app-bar-actions {
     width: 100%;
+  }
+
+  body {
+    overflow-y: scroll;
   }
 
   .navdrawer-container {
