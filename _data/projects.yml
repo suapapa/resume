@@ -3,9 +3,10 @@
   location:
   when: Sept 2012 - Nov 2012
   bullets: 
-    - A DIY braille printer for visually handicapped.
-    - Wrote Go packages for handling braille
+    - A DIY braille printer for visually handicapped
+    - Wrote Go packages for handling Hangul and braille
     - Made braille lable printer with Arduino
+    - Watch video in [here](https://youtu.be/LWKFJUDL1gE)
 - org: Arscon
   role:
   location:
