@@ -1,7 +1,7 @@
 - org: Insignal
   role: Software Engineer
   location:
-  when: June 2011 - Now
+  when: June 2011 - Sept 2015
   bullets:
     - Wrote Linux device driver for secure-chip in Samsung [ARTIK](https://www.artik.io)
     - Made Android camera HAL for Samsung Exynos 4210 SoC
