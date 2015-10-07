@@ -19,12 +19,13 @@
 - name: Arduino Expert
   id: arduino_expert
   layout: list
+
+- name: Publication
+  id: publication
+  layout: list
+
 - name: Professional
   id: professional
-  layout: block
-
-- name: Projects
-  id: projects
   layout: block
 
 - name: Honors

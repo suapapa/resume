@@ -1,3 +1,8 @@
-- Made Arscons which have 9 Contributions:
-- Design, made and sold HUMA board:
-- Mass production HangueClock:
+- Create Arscons:
+    - Have 9 Contributers
+    - Scons script to build and upload Arduino sketch
+- Create HUMA board:
+    - An Arduino competible board which can made by human
+    - Sold over 100 boards
+- Create HangueClock:
+    - In massproction with DaddysLab
