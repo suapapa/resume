@@ -32,6 +32,6 @@
   id: honors
   layout: list
 
-- name: Education
+- name: Education And Others
   id: education
   layout: block
