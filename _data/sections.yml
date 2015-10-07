@@ -20,7 +20,7 @@
   id: arduino_expert
   layout: list
 
-- name: Publication
+- name: Publications
   id: publication
   layout: list
 
