@@ -27,14 +27,9 @@
   id: projects
   layout: block
 
-- name: Skills
-  id: skills
-  layout: cloud
-
 - name: Honors
   id: honors
   layout: list
-
 
 - name: Education
   id: education
