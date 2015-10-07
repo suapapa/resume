@@ -67,6 +67,21 @@ body {
   line-height: 60px;
 }
 
+.app-bar .logo2 {
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 2em;
+  line-height: 60px;
+  margin: 0 16px;
+  padding: 0;
+  color: #fefefe;
+  float: none;
+  max-width: none;
+  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 60px;
+}
+
 .app-bar .logo a {
   text-decoration: none;
   color: inherit;
@@ -231,8 +246,16 @@ main {
     float: left;
     margin: 0;
     padding: 0;
-    line-height: 130px;
-    font-size: 46px;
+    line-height: 90px;
+    font-size: 52px;
+  }
+
+  .app-bar .logo2 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 90px;
+    font-size: 38px;
   }
 
   .app-bar-actions {

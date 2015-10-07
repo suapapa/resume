@@ -4,10 +4,11 @@ layout: default
 <header class="app-bar promote-layer">
   <div class="app-bar-container">
     <button class="menu"><img src="images/hamburger.svg" alt="menu"></button>
-    <h1 class="logo">{{ site.title }}</h1>
+    <h1 class="logo"><b>{{ site.title }}</b></h1><br />
+    <h2 class="logo2">{{ site.title2 }}</h2>
   </div>
 </header>
- 
+
 {{ content }}
 
 {% include layout/footer.html %}
@@ -21,4 +22,3 @@ layout: default
   ga('create','{{ site.analytics }}');ga('send','pageview');
 </script>
 <!-- Built with love using Web Starter Kit -->
-
