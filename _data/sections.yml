@@ -8,12 +8,12 @@
   id: opensource_contribution
   layout: list
 
-- name: Go Expert
-  id: go_expert
-  layout: list
-
 - name: Linux Expert
   id: linux_expert
+  layout: list
+
+- name: Go Expert
+  id: go_expert
   layout: list
 
 - name: Arduino Expert
