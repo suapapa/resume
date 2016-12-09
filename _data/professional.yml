@@ -1,3 +1,11 @@
+- org: KossLab
+  role: Researcher
+  location:
+  when: Jan 2017 - Now
+  bullets:
+    - Write Go pacakges for IoT system
+    - Design E-ink module for RaspberryPi and make Linux driver
+
 - org: InSignal
   role: Software Engineer
   location:
@@ -17,7 +25,7 @@
   role: Software Engineer
   when: Mar 2007 - Oct 2009
   bullets:
-    - Designed and implemented DB interface for LGT TPAK platform
+    - Designed and implemented DB API for LGT TPAK platform
 
 - org: Edam Information & Communications
   role: Software Engineer

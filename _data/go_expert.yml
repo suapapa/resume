@@ -1,16 +1,12 @@
-- GDG Korea Golang Organizer:
 - Top 3 Go Programmer in Korea:
-- Made 10 Go Packages:
-  - github.com/suapapa/go_subtitle
-  - github.com/suapapa/go_tm1638
-  - github.com/suapapa/go_sass
-  - github.com/suapapa/go_hangul
+- Made over 10 Go Packages:
+  - github.com/suapapa/go_devices/...
   - github.com/suapapa/go_eddystone
-  - github.com/suapapa/go_face
-  - github.com/suapapa/go_braille
-  - github.com/suapapa/go_postkr
-  - github.com/suapapa/go_kuler
   - github.com/suapapa/go_accessory
+  - github.com/suapapa/go_hangul
+  - github.com/suapapa/go_braille
+  - github.com/suapapa/go_sass
 - Made following programs in Go:
-  - github.com/suapapa/tools
+  - github.com/suapapa/tools/...
   - github.com/suapapa/whac-a-gopher
+- GDG Korea Golang Organizer:
