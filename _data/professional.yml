@@ -3,7 +3,7 @@
   location:
   when: Jan 2017 - Now
   bullets:
-    - Write Go pacakges for IoT system
+    - Make Go pacakges for IoT system
     - Design E-ink module for RaspberryPi and make Linux driver
 
 - org: InSignal
@@ -26,9 +26,11 @@
   when: Mar 2007 - Oct 2009
   bullets:
     - Designed and implemented DB API for LGT TPAK platform
+    - Wrote Camera FW code for PANTECH phones 
 
-- org: Edam Information & Communications
+- org: EDAMIC - Edam Information & Communications
   role: Software Engineer
   when: Dec 2003 - Mar 2007
   bullets:
-    - Wrote Arabic IME for LG BASE platform
+    - Made Arabic IME for LG BASE platform
+    - Wrote Camera UI code on Qualcomm REX OS for LG phones
