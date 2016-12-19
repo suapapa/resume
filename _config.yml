@@ -55,4 +55,6 @@ exclude: [
   '*.sh',
   'README.md',
   'LICENSE.md',
+  'Makefile',
+  'Dockerfile',
 ]
