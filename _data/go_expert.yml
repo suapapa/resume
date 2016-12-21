@@ -3,10 +3,9 @@
 - Made over 10 Go Packages:
   - github.com/suapapa/go_devices/...
   - github.com/suapapa/go_eddystone
-  - github.com/suapapa/go_accessory
   - github.com/suapapa/go_hangul
   - github.com/suapapa/go_braille
-  - github.com/suapapa/go_sass
+  - And [more...](https://github.com/suapapa?utf8=%E2%9C%93&tab=repositories&q=go_&type=&language=)
 - Made following programs in Go:
   - github.com/suapapa/tools/...
   - github.com/suapapa/whac-a-gopher
