@@ -4,7 +4,7 @@
   when: Jan 2016 - Now
   bullets:
     - Research Go IoT
-    - Research RaspberryPi + Eink
+    - Mentor for [한성 손재한 장학회](http://www.sonjaehan.org)
 
 - org: InSignal
   role: Software Engineer
@@ -26,7 +26,7 @@
   when: Mar 2007 - Oct 2009
   bullets:
     - Designed and implemented DB API for LGT TPAK platform
-    - Wrote Camera FW code for PANTECH phones 
+    - Wrote Camera FW code for PANTECH phones
 
 - org: EDAMIC - Edam Information & Communications
   role: Software Engineer
