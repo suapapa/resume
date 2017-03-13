@@ -1,10 +1,10 @@
 - org: KossLab
   role: Researcher
   location:
-  when: Jan 2017 - Now
+  when: Jan 2016 - Now
   bullets:
-    - Make Go pacakges for IoT system
-    - Design E-ink module for RaspberryPi and make Linux driver
+    - Research Go IoT
+    - Research RaspberryPi + Eink
 
 - org: InSignal
   role: Software Engineer
