@@ -5,6 +5,7 @@ type Sections []struct {
 	Name   string `yaml:"name"`
 	ID     string `yaml:"id"`
 	Layout string `yaml:"layout"`
+	Data   interface{}
 }
 
 // Blocks reperesents block layout

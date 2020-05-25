@@ -15,24 +15,33 @@ func main() {
 
 	var sections Sections
 	chk(yaml.NewDecoder(f).Decode(&sections))
-	log.Printf("%+v", sections)
-
-	for _, s := range sections {
+	for i := 0; i < len(sections); i++ {
+		s := &sections[i]
 		log.Println("##", s.Name, s.Layout)
 		if s.Layout == "block" {
 			f, err := os.Open(fmt.Sprintf("_data/%s.yml", s.ID))
 			chk(err)
 			var blocks Blocks
 			chk(yaml.NewDecoder(f).Decode(&blocks))
-			log.Printf("%+v", blocks)
-			defer f.Close()
+			s.Data = blocks
+			f.Close()
 		} else if s.Layout == "list" {
 			f, err := os.Open(fmt.Sprintf("_data/%s.yml", s.ID))
 			chk(err)
 			var list List
 			chk(yaml.NewDecoder(f).Decode(&list))
-			log.Printf("%+v", list)
-			defer f.Close()
+			s.Data = list
+			f.Close()
+		}
+	}
+
+	log.Printf("%+v", sections)
+	for _, s := range sections {
+		switch s.Data.(type) {
+		case Blocks:
+			log.Println("block", s.Name)
+		case List:
+			log.Println("list", s.Name)
 		}
 	}
 }
