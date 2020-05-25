@@ -1,0 +1,60 @@
+# Use this file to control the main attributes of the website
+
+# You
+name: Homin Lee
+
+# Title for your site as it will appear in google
+# e.g. Resume, Curriculum Vitae, Work History
+title: Homin Lee
+title2: Professional Fullstack Opensource Engineer
+
+# SEO description
+description: Digital resume for Homin Lee.
+
+# URL of this resume
+url: 'https://suapapa.github.io/resume/'
+baseurl: 'https://suapapa.github.io/resume/'
+
+# URL of your personal website (make same as URL if you don't have one)
+personal: 'http://suapapa.net'
+
+# these should be pretty self-explanatory :-P
+email: homin.lee@suapapa.net
+twitter: suapapa
+
+# Show this in the footer
+copyright: Homin Lee &lt;homin.lee@suapapa.net&gt; All rights reserved.
+
+# What should the navigation be called?
+navigation: navigation
+
+# Google analytics ID: UA-XXXXX-X
+analytics: UA-65909718-1
+
+# Jekyll assets gem
+assets:
+  dirname: assets
+  baseurl: assets/
+  css_compressor: yui
+  js_compressor: yui
+  cachebust: hard
+  cache: false
+  gzip: nil # Cloudflare will do this
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+
+# Files in this repo that we don't want to go to the web
+exclude: [
+  'scss',
+  '*.rb',
+  '*.yml',
+  'vendor',
+  'Gemfile',
+  'Gemfile.lock',
+  '*.sh',
+  'README.md',
+  'LICENSE.md',
+  'Makefile',
+  'Dockerfile',
+]
