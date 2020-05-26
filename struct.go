@@ -1,7 +1,7 @@
 package main
 
-// Config contains basic config informations
-type Config struct {
+// Resume contains basic config informations
+type Resume struct {
 	Name        string `yaml:"name"`
 	Title       string `yaml:"title"`
 	Title2      string `yaml:"title2"`
@@ -14,25 +14,34 @@ type Config struct {
 	Copyright   string `yaml:"copyright"`
 	Navigation  string `yaml:"navigation"`
 	Analytics   string `yaml:"analytics"`
-	Assets      struct {
-		Dirname       string   `yaml:"dirname"`
-		Baseurl       string   `yaml:"baseurl"`
-		CSSCompressor string   `yaml:"css_compressor"`
-		JsCompressor  string   `yaml:"js_compressor"`
-		Cachebust     string   `yaml:"cachebust"`
-		Cache         bool     `yaml:"cache"`
-		Gzip          string   `yaml:"gzip"`
-		Sources       []string `yaml:"sources"`
-	} `yaml:"assets"`
-	Exclude []string `yaml:"exclude"`
+	// Assets      struct {
+	// 	Dirname       string   `yaml:"dirname"`
+	// 	Baseurl       string   `yaml:"baseurl"`
+	// 	CSSCompressor string   `yaml:"css_compressor"`
+	// 	JsCompressor  string   `yaml:"js_compressor"`
+	// 	Cachebust     string   `yaml:"cachebust"`
+	// 	Cache         bool     `yaml:"cache"`
+	// 	Gzip          string   `yaml:"gzip"`
+	// 	Sources       []string `yaml:"sources"`
+	// } `yaml:"assets"`
+	// Exclude []string `yaml:"exclude"`
+
+	SectionsName []string
+	Sections     Sections
 }
 
 // Sections reperesents resume sections
 type Sections []struct {
-	Name   string `yaml:"name"`
-	ID     string `yaml:"id"`
-	Layout string `yaml:"layout"`
-	Data   interface{}
+	ID     string      `yaml:"id"`
+	Name   string      `yaml:"name"`
+	Layout string      `yaml:"layout"`
+	Data   interface{} // this should be List or Blocks
+}
+
+// List reperesents list layout
+type List []struct {
+	Title string   `yaml:"title"`
+	Item  []string `yaml:"item"`
 }
 
 // Blocks reperesents block layout
@@ -42,10 +51,4 @@ type Blocks []struct {
 	Location string   `yaml:"location,omitempty"`
 	When     string   `yaml:"when"`
 	Bullets  []string `yaml:"bullets"`
-}
-
-// List reperesents list layout
-type List []struct {
-	Title string   `yaml:"title"`
-	Item  []string `yaml:"item"`
 }
