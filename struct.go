@@ -32,10 +32,10 @@ type Resume struct {
 
 // Sections reperesents resume sections
 type Sections []struct {
-	ID     string      `yaml:"id"`
-	Name   string      `yaml:"name"`
-	Layout string      `yaml:"layout"`
-	Data   interface{} // this should be List or Blocks
+	ID     string `yaml:"id"`
+	Name   string `yaml:"name"`
+	Layout string `yaml:"layout"`
+	Data   Blocks // this should be List or Blocks
 }
 
 // List reperesents list layout
@@ -46,9 +46,14 @@ type List []struct {
 
 // Blocks reperesents block layout
 type Blocks []struct {
+	// for list layout
+	Title string   `yaml:"title"`
+	Item  []string `yaml:"item"`
+
+	// for block layout
 	Org      string   `yaml:"org"`
+	When     string   `yaml:"when"`
 	Role     string   `yaml:"role"`
 	Location string   `yaml:"location,omitempty"`
-	When     string   `yaml:"when"`
 	Bullets  []string `yaml:"bullets"`
 }

@@ -65,102 +65,42 @@
       </ul>
     </nav>
     <main>
-{{range .Sections}}
-    <div class="section">
-      <h2 id="{{.ID}}"> {{.Name}} </h2>
-      <hr />
-    {{with .Data | List}}
-      {{range .}} 
-      <h3>{{.Title}}</h3>
-      <ul>
-        {{range .Item}}
-        <li><p>{{.}}</p> </li>
-        {{end}}
-      </ul>
+{{range $s := .Sections}}
+      <div class="senction">
+        <h2 id="{{.ID}}"> {{.Name}} </h2>
+        <hr />
+  {{if eq $s.Layout "list"}}
+      {{with .Data}}
+        {{range .}} 
+        <h3>{{.Title}}</h3>
+        <ul>
+          {{range .Item}} <li><p>{{.}}</p> </li> {{end}}
+        </ul> {{end}}
       {{end}}
-    {{end}}
-    </div>
+  {{end}}
+  {{if eq $s.Layout "block"}}
+      {{with .Data}}
+        {{range .}} 
+      <div class="block">
+        <div class="main-row">
+          <div class="org"> <h3>{{.Org}}</h3> </div>
+          <div class="when"> <h3>{{.When}}</h3> </div>
+        </div>
+        <div class="sub-row">
+          <div class="role"> <h4>{{.Role}}</h4> </div>
+          <div class="location"> <h4>{{.Location}}</h4> </div>
+        </div>
+        <ul>
+          {{range .Bullets}} <li><p>{{.}}</p> </li> {{end}}
+        </ul>
+      </div>
+      {{end}}
+      {{end}}
+  {{end}}
+      </div>
 {{end}}
 
-    <div class="section">
-      <h2 id="linux_expert">
-        Linux Expert
-      </h2>
-      <hr />
-      <h3>Made Official Samsung & Insignal's git host site for distribute Android PDK</h3>
-      <ul>
-        <li><p>Provide Android PDK for Samsung Exynos4/5 AP based dev. boards.</p> </li>
-        <li><p>http://git.insignal.co.kr</p> </li>
-      </ul>
-      <h3>Made Official Nexell AP's git host service for distribute PDK</h3>
-      <ul>
-        <li><p>Provide Android and Linux PDK for Nexell AP based products.</p> </li>
-      </ul>
-      <h3>Have a License of EagleCad</h3>
-      <ul>
-      </ul> 
-      <h3>Host Livestreaming show</h3>
-      <ul>
-      </ul>
-    </div>
 
-    <div class="section">
-      <h2 id="go_expert">
-        Go Expert
-      </h2>
-      <hr />
-      <h3>Top 3 Go Programmer in Korea</h3>
-      <ul>
-        <li><p>As <a href="https://github.com/search?o=desc&amp;q=language%3AGo+location%3AKorea&amp;s=&amp;type=Users&amp;utf8=%E2%9C%93">suapapa in Github</a></p> </li>
-      </ul>
-      <h3>Made over 10 Go Packages</h3>
-      <ul> 
-        <li><p>github.com/suapapa/go_devices/…</p> </li>
-        <li><p>github.com/suapapa/go_eddystone</p> </li>
-        <li><p>github.com/suapapa/go_hangul</p> </li>
-        <li><p>github.com/suapapa/go_braille</p> </li>
-        <li><p>And <a href="https://github.com/suapapa?utf8=%E2%9C%93&amp;tab=repositories&amp;q=go_&amp;type=&amp;language=">more…</a></p> </li>
-      </ul>
-      <h3>Made following programs in Go</h3>
-      <ul>
-        <li><p>github.com/suapapa/tools/…</p> </li>
-        <li><p>github.com/suapapa/whac-a-gopher</p> </li>
-      </ul>
-      <h3>GDG Korea Golang Organizer</h3>
-      <ul>
-      </ul>
-    </div>
-    <div class="section">
-      <h2 id="arduino_expert">
-        Arduino Expert
-      </h2>
-      <hr />
-      <h3>Created HangulClock</h3>
-      <ul>
-        <li><p>In production with Daddy’s LAB. <a href="http://www.funshop.co.kr/goods/detail/35070">Shop</a></p> </li>
-      </ul>
-      <h3>Created Arscons</h3>
-      <ul>
-        <li><p>Scons script to build and upload Arduino sketch</p> </li>
-        <li><p>Have 9 Contributers</p> </li>
-      </ul>
-      <h3>Created HUMA board</h3>
-      <ul>
-        <li><p>An Arduino competible board which can be made by human</p> </li>
-        <li><p>Sold over 100 boards</p> </li>
-      </ul>
-    </div>
-    <div class="section">
-      <h2 id="publication">
-        Publications
-      </h2>
-      <hr />
-      <h3>English to Korean translator of following books</h3>
-      <ul>
-        <li><p>Getting Started With Intel Galileo, HanbitMedia, ISBN:9788968481314</p> </li>
-        <li><p>Getting Started with Arduino, Insight, ISBN:9788966260393</p> </li>
-      </ul>
-    </div>
     <div class="section">
       <h2 id="professional">
         Professional
