@@ -2,7 +2,6 @@ package main
 
 import (
 	"html/template"
-	"log"
 	"os"
 
 	"github.com/gomarkdown/markdown"
@@ -14,10 +13,8 @@ func genResume(config *Resume) {
 	defer f.Close()
 
 	tFuncMap := template.FuncMap{
-		"markdown": func(str string) string {
-			md := string(markdown.ToHTML([]byte(str), nil, nil))
-			log.Println(str, "->", md)
-			return md
+		"markdown": func(str string) template.HTML {
+			return template.HTML(markdown.ToHTML([]byte(str), nil, nil))
 		},
 	}
 
