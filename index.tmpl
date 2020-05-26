@@ -74,7 +74,7 @@
         {{range .}} 
         <h3>{{.Title}}</h3>
         <ul>
-          {{range .Item}} <li><p>{{.}}</p> </li> {{end}}
+          {{range .Item}} <li>{{.|markdown}}</li> {{end}}
         </ul> {{end}}
       {{end}}
   {{end}}
@@ -91,7 +91,7 @@
           <div class="location"> <h4>{{.Location}}</h4> </div>
         </div>
         <ul>
-          {{range .Bullets}} <li><p>{{.}}</p> </li> {{end}}
+          {{range .Bullets}} <li>{{.|markdown}}</li> {{end}}
         </ul>
       </div>
       {{end}}

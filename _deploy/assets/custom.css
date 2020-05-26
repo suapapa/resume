@@ -1,0 +1,31 @@
+.cloud-section {
+  margin-top: 10px; }
+  .cloud-section h3 {
+    margin-bottom: 10px; }
+  .cloud-section .secondary {
+    opacity: .5; }
+
+.block {
+  padding: 30px 0; }
+  .block .main-row, .block .sub-row {
+    display: block;
+    clear: both;
+    width: 100%; }
+    .block .main-row h1, .block .main-row h2, .block .main-row h3, .block .main-row h4, .block .main-row h5, .block .main-row h6, .block .sub-row h1, .block .sub-row h2, .block .sub-row h3, .block .sub-row h4, .block .sub-row h5, .block .sub-row h6 {
+      padding: 6px 0 0 0; }
+    .block .main-row .role, .block .main-row .org, .block .sub-row .role, .block .sub-row .org {
+      float: left;
+      text-align: left;
+      width: 50%; }
+    .block .main-row .location, .block .main-row .when, .block .sub-row .location, .block .sub-row .when {
+      text-align: right;
+      float: right;
+      width: 50%; }
+  .block ul {
+    padding-top: 10px;
+    clear: both; }
+
+footer {
+  padding-top: 40px;
+  text-align: center;
+  opacity: .5; }
