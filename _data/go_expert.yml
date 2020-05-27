@@ -11,5 +11,5 @@
 - title: Made following programs in Go
   item:
   - github.com/suapapa/tools/...
-  - github.com/suapapa/whac-a-gopher
+  - github.com/suapapa/whack-a-gopher
 - title: GDG Korea Golang Organizer
