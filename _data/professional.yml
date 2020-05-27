@@ -22,7 +22,7 @@
   location:
   when: June 2011 - Sept 2015
   bullets:
-    - Wrote Linux device driver for secure-chip in Samsung [ARTIK](https://www.artik.io)
+    - Wrote Linux device driver for secure-chip in Samsung ARTIK
     - Made Android camera HAL for Samsung Exynos 4210 SoC
 
 - org: Ajentech
