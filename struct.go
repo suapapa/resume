@@ -14,24 +14,12 @@ type Resume struct {
 	Copyright   string `yaml:"copyright"`
 	Navigation  string `yaml:"navigation"`
 	Analytics   string `yaml:"analytics"`
-	// Assets      struct {
-	// 	Dirname       string   `yaml:"dirname"`
-	// 	Baseurl       string   `yaml:"baseurl"`
-	// 	CSSCompressor string   `yaml:"css_compressor"`
-	// 	JsCompressor  string   `yaml:"js_compressor"`
-	// 	Cachebust     string   `yaml:"cachebust"`
-	// 	Cache         bool     `yaml:"cache"`
-	// 	Gzip          string   `yaml:"gzip"`
-	// 	Sources       []string `yaml:"sources"`
-	// } `yaml:"assets"`
-	// Exclude []string `yaml:"exclude"`
 
-	SectionsName []string
-	Sections     Sections
+	Sections []Section
 }
 
-// Sections reperesents resume sections
-type Sections []struct {
+// Section reperesents a resume section
+type Section struct {
 	ID     string      `yaml:"id"`
 	Name   string      `yaml:"name"`
 	Layout string      `yaml:"layout"`

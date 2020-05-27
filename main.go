@@ -1,8 +1,7 @@
 package main
 
 func main() {
-	config := loadData()
-	genResume(config)
+	genResume(loadData())
 }
 
 func chk(err error) {
