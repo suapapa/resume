@@ -34,7 +34,7 @@ func loadData() *Resume {
 		} else if s.Layout == "list" {
 			f, err := os.Open(fmt.Sprintf("_data/%s.yml", s.ID))
 			chk(err)
-			var list Blocks
+			var list List
 			chk(yaml.NewDecoder(f).Decode(&list))
 			s.Data = list
 			f.Close()
