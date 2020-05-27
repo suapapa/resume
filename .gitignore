@@ -1,0 +1,4 @@
+.gitignore
+_deploy/index.html
+_gh-pages
+resume
