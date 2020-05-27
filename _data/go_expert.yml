@@ -12,4 +12,6 @@
   item:
   - github.com/suapapa/tools/...
   - github.com/suapapa/whack-a-gopher
-- title: GDG Korea Golang Organizer
+- title: Host Livestreaming
+  item:
+    - Twitch; [수아파파의 뚝딱뚝딱](https://twitch.tv/suapapa)
