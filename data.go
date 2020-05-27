@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"os"
 
 	"gopkg.in/yaml.v2"
@@ -21,6 +22,7 @@ func loadData() *Resume {
 	chk(yaml.NewDecoder(f).Decode(&config.Sections))
 	for i := 0; i < len(config.Sections); i++ {
 		s := &config.Sections[i]
+		log.Println("decoding", s.ID, "...")
 		// log.Println("##", s.Name, s.Layout)
 		if s.Layout == "block" {
 			f, err := os.Open(fmt.Sprintf("_data/%s.yml", s.ID))

@@ -1,7 +1,13 @@
+- org: Kakao Enterprise
+  role: Software Engineer
+  location:
+  when: Dec 2019 - Now
+  bullets:
+
 - org: Kakao
   role: Software Engineer
   location:
-  when: Nov 2017 - Now
+  when: Nov 2017 - Dec 2019
   bullets:
 
 - org: KossLab
@@ -10,7 +16,6 @@
   when: Jan 2016 - Oct 2017
   bullets:
     - Research Go IoT
-    - Mentor for [한성 손재한 장학회](http://www.sonjaehan.org)
 
 - org: InSignal
   role: Software Engineer
