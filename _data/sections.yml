@@ -4,9 +4,9 @@
 #   id -> used for the CSS id and the yml file name.
 #   layout -> which resume format to use from _includes/resume
 
-- name: Opensource Contribution
-  id: opensource_contribution
-  layout: list
+- name: Professional
+  id: professional
+  layout: block
 
 - name: Go Expert
   id: go_expert
@@ -20,13 +20,13 @@
   id: arduino_expert
   layout: list
 
+- name: Opensource Contribution
+  id: opensource_contribution
+  layout: list
+
 - name: Publications
   id: publication
   layout: list
-
-- name: Professional
-  id: professional
-  layout: block
 
 - name: Honors
   id: honors
