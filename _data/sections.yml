@@ -24,12 +24,12 @@
   id: opensource_contribution
   layout: list
 
-- name: Publications
-  id: publication
-  layout: list
-
 - name: Honors
   id: honors
+  layout: list
+
+- name: Publications
+  id: publication
   layout: list
 
 - name: Education And Others
