@@ -3,12 +3,15 @@
   location:
   when: Dec 2019 - Now
   bullets:
+    - Made Call server, VGW and Encrypt Call Dump System for AI Contact Center that can handle over 1000 calls concerrently per a machine
+    - Made OTA client and Factory test server for embedded linux smart spaeker Mini Hexa
 
 - org: Kakao
   role: Software Engineer
   location:
   when: Nov 2017 - Dec 2019
   bullets:
+    - Kakao Mini & Kakao Mini C
 
 - org: KossLab
   role: Researcher
