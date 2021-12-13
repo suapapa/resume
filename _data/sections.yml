@@ -12,15 +12,7 @@
   id: go_expert
   layout: list
 
-- name: Linux Expert
-  id: linux_expert
-  layout: list
-
-- name: Arduino Expert
-  id: arduino_expert
-  layout: list
-
-- name: Opensource Contribution
+- name: Opensource
   id: opensource_contribution
   layout: list
 
@@ -28,10 +20,10 @@
   id: honors
   layout: list
 
-- name: Publications
+- name: Publications And Make
   id: publication
   layout: list
 
-- name: Education And Others
+- name: Education And Etc...
   id: education
   layout: block

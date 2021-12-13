@@ -6,17 +6,17 @@ name: Homin Lee
 # Title for your site as it will appear in google
 # e.g. Resume, Curriculum Vitae, Work History
 title: Homin Lee
-title2: Embedded System Engineer
+title2: A Go System Software Engineer
 
 # SEO description
 description: Digital resume for Homin Lee.
 
 # URL of this resume
-url: 'https://suapapa.github.io/resume/'
-baseurl: 'https://suapapa.github.io/resume/'
+url: "https://suapapa.github.io/resume/"
+baseurl: "https://suapapa.github.io/resume/"
 
 # URL of your personal website (make same as URL if you don't have one)
-personal: 'http://suapapa.net'
+personal: "http://suapapa.net"
 
 # these should be pretty self-explanatory :-P
 email: homin.lee@suapapa.net

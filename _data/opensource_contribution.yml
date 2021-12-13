@@ -1,6 +1,5 @@
-- title: Contributed following projects
+- title: Contributed to following projects (except Go related)
   item:
     - Contributed to Linux kernel
     - Contributed to base framework of [AOSP](https://source.android.com/)
-    - Contributed to a Go package, github.com/paypal/gatt
     - Official Korean translator of UFRaw and Hugin
