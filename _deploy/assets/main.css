@@ -1,11 +1,7 @@
-/*
- * Web Starter Kit
- *
- * Multi-screen layout styles for your page. Brought to you by the
- * Web Starter Kit team.
- *
- */
-
+:root {
+  --appbar-bg-color: #4285f4;
+  --navdrawer-bg-color: #3367d6;
+}
 
 html,
 body {
@@ -17,9 +13,9 @@ body {
 
 body {
   position: relative;
-  font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-sizing: border-box;
   overflow: hidden;
   min-height: 100%;
@@ -31,7 +27,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #4285f4;
+  background-color: var(--appbar-bg-color);
   overflow: hidden;
   z-index: 1;
 }
@@ -63,7 +59,7 @@ body {
   color: #fefefe;
   float: none;
   max-width: none;
-  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   line-height: 60px;
 }
@@ -78,7 +74,7 @@ body {
   color: #fefefe;
   float: none;
   max-width: none;
-  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   line-height: 60px;
 }
@@ -127,7 +123,7 @@ body {
 }
 
 button.menu img {
-  height:24px;
+  height: 24px;
   width: 24px;
 }
 
@@ -144,7 +140,10 @@ button.menu img {
   backface-visibility: hidden;
 }
 
-.base, p, ul, ol {
+.base,
+p,
+ul,
+ol {
   font-size: 19px;
 }
 
@@ -155,7 +154,7 @@ button.menu img {
   bottom: 0;
   width: 250px;
   height: 100%;
-  background-color: #3367D6;
+  background-color: var(--navdrawer-bg-color);
   color: #fefefe;
   -webkit-transform: translate(-250px, 0);
   transform: translate(-250px, 0);
@@ -167,7 +166,9 @@ button.menu img {
   transform: translate(0, 0);
 }
 
-.app-bar, .navdrawer-container, main {
+.app-bar,
+.navdrawer-container,
+main {
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
 }
@@ -181,7 +182,7 @@ button.menu img {
 
 .navdrawer-container h4 {
   background-color: white;
-  color: #3367D6;
+  color: var(--navdrawer-bg-color);
 }
 
 .navdrawer-container ul {
@@ -241,7 +242,7 @@ main {
     max-width: 864px;
     padding: 0 16px;
     box-sizing: border-box;
-    background-color: #4285f4;
+    background-color: var(--appbar-bg-color);
   }
 
   .app-bar .logo {
@@ -263,7 +264,7 @@ main {
   }
 
   .app-bar:after {
-    content: ' ';
+    content: " ";
     display: block;
     height: 0;
     overflow: hidden;
