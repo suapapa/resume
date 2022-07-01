@@ -12,16 +12,12 @@
   id: go_expert
   layout: list
 
-- name: Opensource
+- name: Open Source
   id: opensource_contribution
   layout: list
 
 - name: Honors
   id: honors
-  layout: list
-
-- name: Publications And Make
-  id: publication
   layout: list
 
 - name: Education And Etc...

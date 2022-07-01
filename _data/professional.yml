@@ -3,8 +3,8 @@
   location:
   when: Dec 2019 - Now
   bullets:
-    - Made Call server, VGW and encrypted call dump system for AI Contact Center
-    - Made OTA client and Factory test server for embedded linux smart speaker, Mini Hexa
+    - Call signaling and media-transcoder server for AI Contact Center
+    - OTA client and Factory test server for smart speaker, Mini Hexa
 
 - org: Kakao
   role: Software Engineer
@@ -18,32 +18,32 @@
   location:
   when: Jan 2016 - Oct 2017
   bullets:
-    - Researched Go IoT
+    - Researched about Go IoT
 
 - org: InSignal
   role: Software Engineer
   location:
   when: June 2011 - Sept 2015
   bullets:
-    - Made Android camera HAL for Samsung Exynos 4210 SoC
+    - Android camera HALs for Samsung Exynos SoCs
 
 - org: Ajentech
   role: Software Engineer
   when: Oct 2009 - May 2011
   bullets:
-    - Upgrade Android PDK to Gingerbread for TI OMAP SoC
-    - Enhanced Linux device driver robust to accidental SD removal for LG Android phones
+    - Worked on Android PDK for TI OMAP SoC
+    - Linux driver enhancement for LG Android phones
 
 - org: Cubicwave
   role: Software Engineer
   when: Mar 2007 - Oct 2009
   bullets:
-    - Designed and implemented DB API for LGT TPAK platform
-    - Wrote Camera FW code for PANTECH phones
+    - DB API for LGT TPAK platform
+    - Camera FW dev. for PANTECH phones
 
 - org: EDAMIC - Edam Information & Communications
   role: Software Engineer
   when: Dec 2003 - Mar 2007
   bullets:
-    - Made UI of Arabic IME for LG BASE platform
-    - Wrote Camera UI code on Qualcomm REX OS for LG phones
+    - Arabic IME for LG BASE platform
+    - Camera UI dev. for Qualcomm REX OS for LG phones

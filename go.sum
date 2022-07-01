@@ -1,9 +1,6 @@
-github.com/gomarkdown/markdown v0.0.0-20200513213024-62c5e2c608cc h1:T+Fwk3llJdUIQeBI8fC/ARqRD5mWy3AE5I6ZU3VkIw8=
-github.com/gomarkdown/markdown v0.0.0-20200513213024-62c5e2c608cc/go.mod h1:aii0r/K0ZnHv7G0KF7xy1v0A7s2Ljrb5byB7MO5p6TU=
-github.com/mattn/serve v0.0.0-20191206130708-ff16065bd789 h1:snoP7qQQ7Zs3iRA00yXHzfhlsuqwsFD8jHhne0R11wc=
-github.com/mattn/serve v0.0.0-20191206130708-ff16065bd789/go.mod h1:z5UCscwT0oZEC5yiEu6rOu6MNWYOe184WjcZZxpFqb8=
-golang.org/dl v0.0.0-20190829154251-82a15e2f2ead/go.mod h1:IUMfjQLJQd4UTqG1Z90tenwKoCX93Gn3MAQJMOSBsDQ=
+github.com/gomarkdown/markdown v0.0.0-20220627144906-e9a81102ebeb h1:5b/eFaSaKPFG9ygDBaPKkydKU5nFJYk08g9jPIVogMg=
+github.com/gomarkdown/markdown v0.0.0-20220627144906-e9a81102ebeb/go.mod h1:JDGcbDT52eL4fju3sZ4TeHGsQwhG9nbDV21aMyhwPoA=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
-gopkg.in/yaml.v2 v2.3.0 h1:clyUAQHOM3G0M3f5vQj7LuJrETvjVot3Z5el9nffUtU=
-gopkg.in/yaml.v2 v2.3.0/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
+gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
+gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=
