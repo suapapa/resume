@@ -12,9 +12,8 @@ title2: A Go System Software Engineer
 description: Digital resume for Homin Lee.
 
 # URL of this resume
-url: "https://suapapa.github.io/resume/"
-baseurl: "https://suapapa.github.io/resume/"
-# baseurl: "./"
+url: "https://homin.dev/resume/"
+baseurl: "./"
 
 # URL of your personal website (make same as URL if you don't have one)
 personal: "http://suapapa.net"
