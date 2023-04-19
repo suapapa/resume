@@ -29,7 +29,7 @@ deploy: resume
 	cp -r _deploy/* _gh-pages
 	cd _gh-pages && git init . && git add . && \
 		git commit -m "deploy" && \
-		git push -f git@github.com:suapapa/resume.git master:gh-pages
+		git push -f git@github.com:suapapa/resume.git main:gh-pages
 
 clean:
 	rm -rf resume _gh-pages _deploy/index.html
