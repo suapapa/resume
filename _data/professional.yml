@@ -3,6 +3,7 @@
   location:
   when: Dec 2019 - Now
   bullets:
+    - integrated APIs call system which use Saga pattern in MSA
     - Call signaling and media-transcoder server for AI Contact Center
     - OTA client and Factory test server for smart speaker, Mini Hexa
 
