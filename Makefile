@@ -21,7 +21,7 @@ resume: *.go
 serve:
 	$(BROWSER) 'http://localhost:5000'
 	cd _deploy && \
-	serve || (go get -v github.com/mattn/serve && serve)
+	serve || (go install github.com/mattn/serve@latest && serve)
 
 deploy: resume
 	rm -rf _gh-pages
