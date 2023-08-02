@@ -1,10 +1,10 @@
 - org: Kakao Enterprise
   role: Software Engineer
   location:
-  when: Dec 2019 - Now
+  when: Dec 2019 - July 2023
   bullets:
-    - Integrated APIs call system which use Saga pattern in MSA
-    - Call signaling and media-transcoder server for AI Contact Center
+    - Leveraged Kubernetes to build a flexible MSA saga system with customizable transaction steps, enhanced by ConfigMap integration for easy modifications.
+    - Architectured and developed a SIP and RTP call solution for the KICC system, an AI voice bot-operated contact center, proficiently handling over 6,000 calls per day.
     - OTA client and Factory test server for smart speaker, Mini Hexa
 
 - org: Kakao
