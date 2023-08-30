@@ -1,3 +1,7 @@
+- org: 42dot
+  role: Software Engineer
+  when: Aug 2023 - NOW
+
 - org: Kakao Enterprise
   role: Software Engineer
   location:
