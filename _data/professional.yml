@@ -1,6 +1,8 @@
 - org: 42dot
   role: Software Engineer
   when: Aug 2023 - NOW
+  bullets:
+    - Designing, implementing, and operating an OTA (Over-the-Air) update system for Software-Defined Vehicles, following the principles of Uptane Framework to ensure secure and efficient software updates.
 
 - org: Kakao Enterprise
   role: Software Engineer
