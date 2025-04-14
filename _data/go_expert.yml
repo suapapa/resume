@@ -1,17 +1,17 @@
 - title: One of top listed Go Programmer in Korea
   item:
   - As [suapapa in Github](https://github.com/search?o=desc&q=language%3AGo+location%3AKorea&s=&type=Users&utf8=%E2%9C%93)
-- title: Contributed to following packages
+- title: Contributed to following Go packages and more...
   item:
   - github.com/firebase/genkit
   - github.com/cloudwebrtc/go-sip-ua
   - github.com/muka/go-bluetooth
-  - github.com/paypal/gatt
+  # - github.com/paypal/gatt
   # - github.com/hangulize/hangulize
 - title: Made over 10 Go Packages
   item:
   - github.com/suapapa/go_hangul
   - github.com/suapapa/go_devices/...
-  - github.com/suapapa/go_eddystone
-  - github.com/suapapa/go_khaiii
+  # - github.com/suapapa/go_eddystone
+  # - github.com/suapapa/go_khaiii
   - And [more...](https://github.com/suapapa?utf8=%E2%9C%93&tab=repositories&q=go_&type=&language=)

@@ -64,7 +64,7 @@
       <div class="app-bar-container">
         <div class="title-section">
           <h1 class="logo"><b>{{.Title}}</b></h1>
-          <h3 class="contact">- {{.Email}}</h3>
+          <div class="contact">- {{.Email}}</div>
         </div>
 
         <h2 class="logo2"><b>{{.Title2}}</b></h2>
@@ -87,8 +87,8 @@
       <div class="double-section">
   {{end}}
       {{with .Data}}
-        {{range .}} 
-        <h3>{{.Title}}</h3>
+        {{range .}}
+        {{if .Title}} <h3>{{.Title}}</h3> {{end}}
         <ul>
           {{range .Item}} <li>{{.|markdown}}</li> {{end}}
         </ul> {{end}}

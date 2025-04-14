@@ -16,17 +16,21 @@
   id: professional
   layout: block
 
-- name: Go Expert
-  id: go_expert
+- name: Certifications
+  id: honors
   layout: list
 
 - name: Open Source
-  id: opensource_contribution
+  id: go_expert
   layout: list
 
-- name: Honors
-  id: honors
-  layout: list
+# - name: Open Source
+#   id: opensource_contribution
+#   layout: list
+
+# - name: Honors
+#   id: honors
+#   layout: list
 
 - name: Education And Etc...
   id: education
