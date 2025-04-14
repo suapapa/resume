@@ -27,12 +27,12 @@
   bullets:
     - Researched about Go IoT
 
-- org: InSignal
-  role: Software Engineer
-  location:
-  when: Jun 2011 - Sep 2015
-  bullets:
-    - Android camera HALs for Samsung Exynos SoCs
+# - org: InSignal
+#   role: Software Engineer
+#   location:
+#   when: Jun 2011 - Sep 2015
+#   bullets:
+#     - Android camera HALs for Samsung Exynos SoCs
 
 # - org: Ajentech
 #   role: Software Engineer
