@@ -40,3 +40,7 @@ type Blocks []struct {
 	Location string   `yaml:"location,omitempty"`
 	Bullets  []string `yaml:"bullets"`
 }
+
+type Desc struct {
+	Contents string `yaml:"contents"`
+}

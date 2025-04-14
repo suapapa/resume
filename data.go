@@ -23,19 +23,27 @@ func loadData() *Resume {
 	for i := 0; i < len(config.Sections); i++ {
 		s := &config.Sections[i]
 		log.Println("decoding", s.ID, "...")
-		if s.Layout == "block" {
+		switch s.Layout {
+		case "block":
 			f, err := os.Open(fmt.Sprintf("_data/%s.yml", s.ID))
 			chk(err)
 			var blocks Blocks
 			chk(yaml.NewDecoder(f).Decode(&blocks))
 			s.Data = &blocks
 			f.Close()
-		} else if s.Layout == "list" {
+		case "list":
 			f, err := os.Open(fmt.Sprintf("_data/%s.yml", s.ID))
 			chk(err)
 			var list List
 			chk(yaml.NewDecoder(f).Decode(&list))
 			s.Data = &list
+			f.Close()
+		case "desc":
+			f, err := os.Open(fmt.Sprintf("_data/%s.yml", s.ID))
+			chk(err)
+			var desc Desc
+			chk(yaml.NewDecoder(f).Decode(&desc))
+			s.Data = &desc
 			f.Close()
 		}
 	}

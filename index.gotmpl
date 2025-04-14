@@ -107,6 +107,11 @@
       {{end}}
       {{end}}
   {{end}}
+  {{if eq $s.Layout "desc"}}
+      {{with .Data}}
+        <h4>{{.Contents}}</h4>
+      {{end}}
+  {{end}}
       </div>
 {{end}}
     </main>

@@ -34,23 +34,23 @@
   bullets:
     - Android camera HALs for Samsung Exynos SoCs
 
-- org: Ajentech
-  role: Software Engineer
-  when: Oct 2009 - May 2011
-  bullets:
-    - Worked on Android PDK for TI OMAP SoC
-    - Linux driver enhancement for LG Android phones
+# - org: Ajentech
+#   role: Software Engineer
+#   when: Oct 2009 - May 2011
+#   bullets:
+#     - Worked on Android PDK for TI OMAP SoC
+#     - Linux driver enhancement for LG Android phones
 
-- org: Cubicwave
-  role: Software Engineer
-  when: Mar 2007 - Oct 2009
-  bullets:
-    - DB API for LGT TPAK platform
-    - Camera FW dev. for PANTECH phones
+# - org: Cubicwave
+#   role: Software Engineer
+#   when: Mar 2007 - Oct 2009
+#   bullets:
+#     - DB API for LGT TPAK platform
+#     - Camera FW dev. for PANTECH phones
 
-- org: EDAMIC - Edam Information & Communications
-  role: Software Engineer
-  when: Dec 2003 - Mar 2007
-  bullets:
-    - Arabic IME for LG BASE platform
-    - Camera UI dev. for Qualcomm REX OS for LG phones
+# - org: EDAMIC - Edam Information & Communications
+#   role: Software Engineer
+#   when: Dec 2003 - Mar 2007
+#   bullets:
+#     - Arabic IME for LG BASE platform
+#     - Camera UI dev. for Qualcomm REX OS for LG phones

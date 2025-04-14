@@ -4,6 +4,10 @@
 #   id -> used for the CSS id and the yml file name.
 #   layout -> which resume format to use from _includes/resume
 
+- name: Summary
+  id: career_identity_statement
+  layout: desc
+
 - name: Professional
   id: professional
   layout: block
