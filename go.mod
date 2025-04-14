@@ -3,6 +3,6 @@ module github.com/suapapa/resume
 go 1.20
 
 require (
-	github.com/gomarkdown/markdown v0.0.0-20230716120725-531d2d74bc12
+	github.com/gomarkdown/markdown v0.0.0-20250311123330-531bef5e742b
 	gopkg.in/yaml.v2 v2.4.0
 )
