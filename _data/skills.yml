@@ -11,11 +11,11 @@
 
 - title: System Engineering
   item:
+    - RAG server development
     - Linux administration
     - Networking (SIP/RTP)
-    - OTA systems (Uptane)
-    - Factory automation, Compliance automation
-    - RAG server development
+    # - OTA systems (Uptane)
+    # - Factory automation, Compliance automation
 
 - title: Architecture and Design
   item:
@@ -27,12 +27,12 @@
     - Android native services (Binder)
     - Android HAL (Camera, Exynos SoCs)
     - Linux kernel modules
-    - Smart device firmware
-    - Embedded OTA clients
+    # - Smart device firmware
+    # - Embedded OTA clients
 
 - title: Soft Skills
   item:
     - Cross-functional collaboration
     - Problem-solving mindset
-    - Resource coordination under tight deadlines
     - Effective communication
+    # - Resource coordination under tight deadlines
