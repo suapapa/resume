@@ -8,6 +8,10 @@
   id: career_identity_statement
   layout: desc
 
+- name: Skills
+  id: skills
+  layout: list
+
 - name: Professional
   id: professional
   layout: block

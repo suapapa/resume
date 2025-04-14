@@ -1,0 +1,38 @@
+- title: Languages
+  item:
+    - Go, Rust
+    - Python
+
+- title: Cloud and Infrastructure
+  item:
+    - Kubernetes, Docker
+    - GCP, AWS
+    - GitOps
+
+- title: System Engineering
+  item:
+    - Linux administration
+    - Networking (SIP/RTP)
+    - OTA systems (Uptane)
+    - Factory automation, Compliance automation
+    - RAG server development
+
+- title: Architecture and Design
+  item:
+    - Microservice orchestration (Saga pattern)
+    - CI/CD pipelines
+
+- title: Embedded and Platform
+  item:
+    - Android native services (Binder)
+    - Android HAL (Camera, Exynos SoCs)
+    - Linux kernel modules
+    - Smart device firmware
+    - Embedded OTA clients
+
+- title: Soft Skills
+  item:
+    - Cross-functional collaboration
+    - Problem-solving mindset
+    - Resource coordination under tight deadlines
+    - Effective communication
