@@ -44,6 +44,13 @@ body {
   margin: 0 auto;
 }
 
+.title-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 .app-bar.open,
 .app-bar.open ~ main {
   -webkit-transform: translate(250px, 0);
@@ -63,6 +70,13 @@ body {
   font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   line-height: 60px;
+}
+
+.logo,
+.contact {
+  margin: 0;
+  padding: 0;
+  line-height: 1; /* 세로 정렬도 깔끔하게 */
 }
 
 .app-bar .contact {
