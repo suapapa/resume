@@ -64,7 +64,8 @@
       <div class="app-bar-container">
         <button class="menu"><img src="images/hamburger.svg" alt="menu"></button>
         <p><h1 class="logo"><b>{{.Title}}</b></h1></P>
-        <p><h2 class="logo2">{{.Title2}}</h2></p>
+        <p><h3 class="contact">- {{.Email}}</h3></p>
+        <p><h2 class="logo2"><b>{{.Title2}}</b></h2></p>
       </div>
     </header>
 
@@ -76,10 +77,13 @@
     </nav>
     <main>
 {{range $s := .Sections}}
-      <div class="senction">
+      <div class="section">
         <h2 id="{{.ID}}"> {{.Name}} </h2>
         <hr />
   {{if eq $s.Layout "list"}}
+  {{if eq $s.ID "skills"}}
+      <div class="double-section">
+  {{end}}
       {{with .Data}}
         {{range .}} 
         <h3>{{.Title}}</h3>
@@ -87,6 +91,9 @@
           {{range .Item}} <li>{{.|markdown}}</li> {{end}}
         </ul> {{end}}
       {{end}}
+  {{if eq $s.ID "skills"}}
+      </div>
+  {{end}}
   {{end}}
   {{if eq $s.Layout "block"}}
       {{with .Data}}
