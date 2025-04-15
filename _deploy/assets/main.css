@@ -1,6 +1,6 @@
 :root {
-  --appbar-bg-color: #4285f4;
-  --navdrawer-bg-color: #3367d6;
+  /* --appbar-bg-color: #333; */
+  --navdrawer-bg-color: #555;
 }
 
 html,
@@ -31,6 +31,18 @@ body {
   background-color: var(--appbar-bg-color);
   overflow: hidden;
   z-index: 1;
+}
+
+.app-bar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/bg.png');
+  background-size: cover;
+  background-position: bottom center;
+  filter: grayscale(100%) brightness(15%);
+  /* filter: grayscale(100%) brightness(40%) blur(4px); */
+  z-index: -1;
 }
 
 .app-bar-container {
@@ -288,7 +300,8 @@ main {
   }
 
   .app-bar .contact {
-    float: left;
+    text-align: right;
+    float: right;
     margin: 0;
     padding: 0;
     font-size: 24;
