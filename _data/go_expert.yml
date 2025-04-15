@@ -5,7 +5,7 @@
 
 - title: Contributed to many Go packages
   item:
-  - github.com/firebase/genkit
+  - github.com/firebase/genkit/go
   - github.com/cloudwebrtc/go-sip-ua
   - github.com/muka/go-bluetooth
   # - github.com/paypal/gatt

@@ -7,6 +7,7 @@ docker buildx build --platform linux/amd64 -t $IMAGE_TAG .
 docker push $IMAGE_TAG
 
 IMAGE_TAG_LATEST=gcr.io/homin-dev/resume:latest 
+docker rmi $IMAGE_TAG_LATEST || true
 docker tag $IMAGE_TAG $IMAGE_TAG_LATEST
 docker push $IMAGE_TAG_LATEST
 
