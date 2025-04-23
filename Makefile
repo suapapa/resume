@@ -19,9 +19,9 @@ resume: *.go
 	go build && ./resume
 
 serve:
-	$(BROWSER) 'http://localhost:5000'
+	$(BROWSER) 'http://localhost:5001'
 	cd _deploy && \
-	serve || (go install github.com/mattn/serve@latest && serve)
+	serve || (go install github.com/mattn/serve@latest && serve -a :5001)
 
 deploy: resume
 	rm -rf _gh-pages
