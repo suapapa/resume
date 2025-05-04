@@ -14,9 +14,9 @@ func genResume(config *Resume) {
 		},
 	}
 
-	tmpl := template.New("index.gotmpl")
+	tmpl := template.New("index.tmpl.html")
 	tmpl = tmpl.Funcs(tFuncMap)
-	tmpl, err := tmpl.ParseFiles("index.gotmpl")
+	tmpl, err := tmpl.ParseFiles("index.tmpl.html")
 	chk(err)
 
 	f, err := os.Create("_deploy/index.html")
