@@ -37,7 +37,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('https://homin.dev/asset/blog/img/bg.png');
+  background-image: url('https://asset.homin.dev/blog/img/bg.png');
   background-size: cover;
   background-position: bottom center;
   filter: grayscale(100%) brightness(15%);
