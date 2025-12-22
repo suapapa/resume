@@ -19,12 +19,12 @@ baseurl: "./"
 personal: "https://homin.dev"
 
 # these should be pretty self-explanatory :-P
-email: ff4500@gmail.com
+email: homin.crc+contact@gmail.com
 twitter: suapapa
 
 # Show this in the footer
 # copyright: Homin Lee &lt;homin.lee@suapapa.net&gt; All rights reserved.
-copyright: Homin Lee <ff4500@gmail.com>; All rights reserved.
+copyright: Homin Lee <homin.crc@gmail.com>; All rights reserved.
 
 # What should the navigation be called?
 navigation: navigation
