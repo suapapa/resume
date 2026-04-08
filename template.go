@@ -1,28 +1,36 @@
 package main
 
 import (
+	"fmt"
 	"html/template"
 	"os"
 
 	"github.com/gomarkdown/markdown"
 )
 
-func genResume(config *Resume) {
+func genResume(config *Resume, outputPath string) error {
 	tFuncMap := template.FuncMap{
 		"markdown": func(str string) template.HTML {
 			return template.HTML(markdown.ToHTML([]byte(str), nil, nil))
 		},
 	}
 
-	tmpl := template.New("index.tmpl.html")
-	tmpl = tmpl.Funcs(tFuncMap)
-	tmpl, err := tmpl.ParseFiles("index.tmpl.html")
-	chk(err)
+	tmpl, err := template.New("index.tmpl.html").
+		Funcs(tFuncMap).
+		ParseFiles("index.tmpl.html")
+	if err != nil {
+		return fmt.Errorf("failed to parse template: %w", err)
+	}
 
-	f, err := os.Create("_deploy/index.html")
-	chk(err)
+	f, err := os.Create(outputPath)
+	if err != nil {
+		return fmt.Errorf("failed to create output file: %w", err)
+	}
 	defer f.Close()
 
-	err = tmpl.Execute(f, config)
-	chk(err)
+	if err := tmpl.Execute(f, config); err != nil {
+		return fmt.Errorf("failed to execute template: %w", err)
+	}
+
+	return nil
 }
